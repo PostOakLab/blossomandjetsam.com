@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blossom and Jetsam</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blossom and Jetsam</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why this?</title>
+      <link>http://localhost:1313/posts/2025-6-11/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-6-11/</guid>
+      <description>&lt;p&gt;Hello there!&lt;/p&gt;
+&lt;p&gt;In this first post I just wanted to introduce myself and explain why I decided to create this platform.&lt;/p&gt;
+&lt;p&gt;My name is Ryan and I am a curious person. I love to learn new things and I hope I never come to believe I have arrive and that I don&amp;rsquo;t have more to learn.&lt;/p&gt;
+&lt;p&gt;This is a place to reflect on whatever is interesting out here in the debris of modern life.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
