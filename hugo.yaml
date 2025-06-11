@@ -6,9 +6,9 @@ theme: PaperMod
 params:
   defaultTheme: dark
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Welcome to Blossom and Jetsam \U0001F44B"
     Content: >-
-      Welcome to Blossom and Jetsam: flowers in the wreckage      
+      finding flowers in the wreckage      
   socialIcons:
     - name: email
       url: 'mailto:ryan@blossomandjetsam.com'
