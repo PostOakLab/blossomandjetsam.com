@@ -30,3 +30,7 @@ menu:
     name: Blog
     url: /posts/
     weight: 20
+
+baseURL: "https://postoaklab.gitlab.io/blossomandjetsam.com/"
+canonifyurls: true
+relativeURLs: false
