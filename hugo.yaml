@@ -5,13 +5,14 @@ theme: PaperMod
 
 params:
   defaultTheme: light
+  disableThemeToggle: true
   homeInfoParams:
     Title: "Blossom and Jetsam"
     Content: >-
-      Analog photography, handmade books, darkness and light      
-  socialIcons:
-    - name: email
-      url: 'mailto:ryan@blossomandjetsam.com'
+      Analog photographs, 
+      handmade books, 
+      darkness and light      
+  
   hideMeta: true
 
 assets:
