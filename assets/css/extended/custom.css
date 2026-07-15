@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    font-family: "Libre Baskerville", Georgia, serif !important;
+}
+
+.post-content,
+.post-title,
+.post-description,
+.logo a,
+.home-info,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Libre Baskerville", Georgia, serif !important;
+}
