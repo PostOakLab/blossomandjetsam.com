@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-    --theme: rgb(244, 243, 239);
-    --entry: rgb(244, 243, 239);
+    --theme: rgb(244, 243, 239) !important;
+    --entry: rgb(244, 243, 239) !important;
 
     --primary: rgb(32, 32, 32);
     --secondary: rgb(92, 92, 92);
@@ -11,7 +11,7 @@
 
 html,
 body {
-    background: rgb(244, 243, 239);
+    background: rgb(244, 243, 239) !important;
 
 /* Body and written content */
 .post-content {
