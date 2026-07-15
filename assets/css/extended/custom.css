@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 body {
-    font-family: "Libre Baskerville", Georgia, serif !important;
+    font-family: "Libre Baskerville", Georgia, serif;
+    line-height: 1.8;
+    background-color: #faf8f2;
 }
 
 .post-content,
-.post-title,
+
+.post-title {
+    font-weight: 400;
+}
+
+.entry-header h2 {
+    font-weight: 400;
+}
+
+.post-entry {
+    border-radius: 0;
+}
+
+img {
+    border-radius: 0;
+}
 .post-description,
 .logo a,
 .home-info,
@@ -15,5 +32,5 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Libre Baskerville", Georgia, serif !important;
+    font-family: "Libre Baskerville", Georgia, serif;
 }
