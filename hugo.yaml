@@ -4,14 +4,15 @@ title: Blossom and Jetsam
 theme: PaperMod
 
 params:
-  defaultTheme: dark
+  defaultTheme: light
   homeInfoParams:
-    Title: "Welcome to Blossom and Jetsam \U0001F44B"
+    Title: "Blossom and Jetsam"
     Content: >-
-      finding flowers in the wreckage      
+      Analog photography, handmade books, darkness and light      
   socialIcons:
     - name: email
       url: 'mailto:ryan@blossomandjetsam.com'
+  hideMeta: true
 
 assets:
   favicon16x16: /assets/favicon-16x16.png
@@ -22,14 +23,30 @@ favicon: favicon.ico
 
 menu:
   main:
-  - identifier: home
-    name: Home
-    url: /
+  - identifier: books
+    name: Books
+    url: /books
     weight: 10
-  - identifier: posts
-    name: Blog
-    url: /posts/
+    
+  - identifier: gallery
+    name: Gallery
+    url: /gallery/
     weight: 20
+
+  - identifier: process
+    name: Process
+    url: /process/
+    weight: 30
+
+  - identifier: journal
+    name: Journal
+    url: /posts/
+    weight: 40
+
+  - identifier: about
+    name: About
+    url: /about/
+    weight: 50
 
 caches:
   assets:
