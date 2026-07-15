@@ -7,13 +7,12 @@
     --secondary: rgb(100, 100, 100) !important;
     --border: rgb(225, 220, 210) !important;
 }
-
+html,
 body {
-    background-color: rgb(248, 246, 240);
+    background-color: rgb(248, 246, 240) !important;
 }
 
 /* Body and written content */
-body,
 .post-content {
     font-family: "EB Garamond", Georgia, serif !important;
 }
@@ -28,7 +27,7 @@ body,
 }
 /* Make page backgrounds identical */
 .post-single {
-    background: var(--theme) !important;
+    background: transparent !important;
 }
 
 /* Also remove any inherited tint */
