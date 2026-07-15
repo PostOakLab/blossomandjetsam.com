@@ -11,8 +11,7 @@
 
 html,
 body {
-    background: var(--theme);
-}
+    background: rgb(244, 243, 239);
 
 /* Body and written content */
 .post-content {
@@ -34,5 +33,9 @@ body {
 
 /* Also remove any inherited tint */
 .post-content {
+    background: transparent !important;
+}
+
+.main {
     background: transparent !important;
 }
