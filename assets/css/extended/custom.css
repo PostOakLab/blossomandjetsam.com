@@ -34,3 +34,12 @@ h5,
 h6 {
     font-family: "Libre Baskerville", Georgia, serif;
 }
+.footer {
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: 0.85rem;
+    opacity: 0.75;
+}
+
+.footer a {
+    color: inherit;
+}
