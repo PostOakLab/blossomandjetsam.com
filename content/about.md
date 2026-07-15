@@ -13,7 +13,7 @@ Photography and image-making is fascinating to us on so many levels. A photograp
 
 ## Process
 
-Our photographic process is as manual as possible. While not opposed to technology as another tool, we like the hands-on experience of building cameras, exposing film, and creating prints in a darkroom. This forces us to slow down and encourages contemplation as opposed to endlessly scrolling. I hope this work can be an antidote to dopamine culture, and instead helps bring something real into focus (a photography metaphor)
+Our photographic process is as manual as possible. While not opposed to technology as another tool, we like the hands-on experience of building cameras, exposing film, and creating prints in a darkroom. This forces us to slow down and encourages contemplation as opposed to endlessly scrolling. We hope this work can be an antidote to dopamine culture and bring something real into focus.
 
 We intend to present our art as tangible artifacts: small, limited editions of handmade books and prints.
 
