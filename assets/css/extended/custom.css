@@ -26,3 +26,12 @@ body,
 .entry-footer {
     font-family: "EB Garamond", Georgia, serif !important;
 }
+/* Make page backgrounds identical */
+.post-single {
+    background: var(--theme) !important;
+}
+
+/* Also remove any inherited tint */
+.post-content {
+    background: transparent !important;
+}
