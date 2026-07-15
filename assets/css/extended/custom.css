@@ -14,7 +14,7 @@ body {
 /* Body and written content */
 body,
 .post-content {
-    font-family: "EB Garamond", Georgia, serif;
+    font-family: "EB Garamond", Georgia, serif !important;
 }
 
 /* Site interface */
@@ -23,5 +23,5 @@ body,
 .footer,
 .post-meta,
 .entry-footer {
-    font-family: "EB Garamond", Georgia, serif;
+    font-family: "EB Garamond", Georgia, serif !important;
 }
