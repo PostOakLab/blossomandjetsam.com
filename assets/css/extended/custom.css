@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
+:root {
+    --theme: rgb(250, 248, 242);
+    --entry: rgb(250, 248, 242);
+    --primary: rgb(40, 40, 40);
+    --secondary: rgb(90, 90, 90);
+}
+
+body {
+    background-color: rgb(250, 248, 242);
+}
+
 /* Body and written content */
 body,
 .post-content {
