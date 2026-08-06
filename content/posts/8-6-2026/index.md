@@ -13,7 +13,7 @@ tags:
 
 A few weeks ago I was fortunate to find an amazing deal on two vintage cameras and basically a whole darkroom setup including chemicals. 
 One was a Yashica Mat-124 TLR (120) from 1969 was a Graflex Super Graphic (4x5) from the same era. 
-![Yashica TLR camera](yashica.jpeg)
+![Yashica TLR camera](yashica1.jpeg)
 
 After cleaning them up and testing the shutters, I loaded a roll of HP5+ into the Yashica and took some photos.
 I then developed the roll with D-76 and a basic developing tank. I was so excited when I saw the negatives!
