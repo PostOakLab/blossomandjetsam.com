@@ -1,7 +1,7 @@
 ---
 title: "Beginnings"
 date: 2026-08-06
-draft: true
+draft: false
 tags:
    - film photography
    - 120
