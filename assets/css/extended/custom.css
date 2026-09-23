@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
 
 :root {
     --theme: rgb(244, 243, 239) !important;
@@ -39,4 +39,29 @@ body {
 
 .main {
     background: transparent !important;
+}
+
+/* Gallery page: two columns on wide screens, one on phones */
+.bj-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.post-content .bj-gallery-item {
+    margin: 0;
+}
+
+.post-content .bj-gallery-item img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.post-content .bj-gallery-item figcaption {
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+    color: var(--secondary);
+    text-align: center;
 }

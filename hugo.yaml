@@ -15,18 +15,18 @@ params:
   
   hideMeta: true
 
-assets:
-  favicon16x16: /assets/favicon-16x16.png
-  favicon32x32: /assets/favicon-32x32.png
-  apple_touch_icon: /assets/apple-touch-icon.png
-  
-favicon: favicon.ico
+  # Browser-tab icons (PaperMod only reads these when they sit under params)
+  assets:
+    favicon: /favicon.ico
+    favicon16x16: /assets/favicon-16x16.png
+    favicon32x32: /assets/favicon-32x32.png
+    apple_touch_icon: /assets/apple-touch-icon.png
 
 menu:
   main:
   - identifier: books
     name: Books
-    url: /books
+    url: /books/
     weight: 10
     
   - identifier: gallery

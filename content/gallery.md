@@ -1,1 +1,6 @@
-Coming soon!
+---
+title: "Gallery"
+layout: "single"
+---
+
+{{< gallery >}}

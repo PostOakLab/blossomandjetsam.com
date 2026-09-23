@@ -1,0 +1,34 @@
+{{- /*
+  Gallery: shows every photo in assets/gallery/, in filename order.
+  Each photo gets web-sized copies (the original is never published and
+  camera/GPS metadata is stripped). Caption = filename, tidied up:
+  "02-elijah-john.jpg" -> "Elijah John".
+*/ -}}
+{{- $imgs := slice -}}
+{{- range sort (resources.Match "gallery/*") "Name" -}}
+  {{- if and (eq .ResourceType "image") (in (slice "jpeg" "png" "webp" "tiff") .MediaType.SubType) -}}
+    {{- $imgs = $imgs | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $imgs -}}
+<p>Coming soon!</p>
+{{- else -}}
+<div class="bj-gallery">
+{{- range $imgs -}}
+  {{- $orig := . -}}
+  {{- if eq .MediaType.SubType "jpeg" }}{{ $orig = .Filter images.AutoOrient }}{{ end -}}
+  {{- $name := path.BaseName .Name -}}
+  {{- $name = replaceRE `^[0-9]+[-_ ]*` "" $name -}}
+  {{- $caption := replaceRE `[-_]+` " " $name | title -}}
+  {{- $thumb := $orig.Resize (printf "%dx jpg q82" (math.Min $orig.Width 800 | int)) -}}
+  {{- $large := $orig.Resize (printf "%dx jpg q85" (math.Min $orig.Width 2000 | int)) -}}
+  <figure class="bj-gallery-item">
+    <a href="{{ $large.RelPermalink }}">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}"
+        alt="{{ $caption }}" loading="lazy" decoding="async">
+    </a>
+    <figcaption>{{ $caption }}</figcaption>
+  </figure>
+{{- end -}}
+</div>
+{{- end -}}
