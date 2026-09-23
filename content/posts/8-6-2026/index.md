@@ -8,11 +8,8 @@ tags:
    - darkroom
 ---
 
-# Beginnings
-*August 6, 2026*
-
 A few weeks ago I was fortunate to find an amazing deal on two vintage cameras and basically a whole darkroom setup including chemicals. 
-One was a Yashica Mat-124 TLR (120) from 1969 was a Graflex Super Graphic (4x5) from the same era. 
+One was a Yashica Mat-124 TLR (120) from 1969, and the other was a Graflex Super Graphic (4x5) from the same era. 
 
 ![Yashica TLR camera](yashica1.jpeg)
 
